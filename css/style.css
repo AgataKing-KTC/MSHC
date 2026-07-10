@@ -452,3 +452,146 @@ h3 {
     min-height: 560px;
   }
 }
+
+
+/* Support page */
+.support-hero {
+  min-height: 68vh;
+  display: grid;
+  place-items: center;
+  padding: 90px 20px;
+  text-align: center;
+  color: white;
+  background:
+    linear-gradient(rgba(20, 40, 27, 0.58), rgba(20, 40, 27, 0.64)),
+    url("../images/join.png") center/cover no-repeat;
+}
+
+.support-hero .hero-inner {
+  width: min(840px, 100%);
+}
+
+.support-hero h1 {
+  margin-bottom: 18px;
+  color: white;
+  font-size: clamp(2.8rem, 7vw, 5.3rem);
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+.support-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.support-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 36px;
+  border-radius: 28px;
+  background: var(--soft-white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.support-card .icon {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background: rgba(111, 143, 95, 0.16);
+  font-size: 1.7rem;
+}
+
+.support-card h3 {
+  margin: 24px 0 12px;
+  font-size: 2rem;
+}
+
+.support-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.support-card ul {
+  margin: 24px 0 30px;
+  padding-left: 20px;
+}
+
+.support-card li + li {
+  margin-top: 9px;
+}
+
+.card-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.impact {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.impact h2 {
+  margin-bottom: 18px;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+.impact p {
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.impact-list {
+  display: grid;
+  gap: 18px;
+}
+
+.impact-item {
+  padding: 24px;
+  border-left: 5px solid var(--gold);
+  border-radius: 0 18px 18px 0;
+  background: white;
+  box-shadow: 0 10px 30px rgba(31, 51, 38, 0.08);
+}
+
+.impact-item strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--deep-green);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 850px) {
+  .support-grid,
+  .impact {
+    grid-template-columns: 1fr;
+  }
+
+  .support-hero {
+    min-height: 62vh;
+  }
+}
+
+@media (max-width: 560px) {
+  .support-card {
+    padding: 28px 24px;
+  }
+
+  .card-actions {
+    flex-direction: column;
+  }
+}
