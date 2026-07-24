@@ -1,0 +1,234 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Support Us | Maple Seeds Homeschool Collective</title>
+
+  <meta
+    name="description"
+    content="Join Maple Seeds Homeschool Collective, support our mission through Zeffy, or help fill our community library through Scholastic."
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">Maple Seeds<br />Homeschool Collective</a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="donate.html" aria-current="page">Support Us</a>
+        <a class="nav-button" href="#support">Join or Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="support-hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Help our community grow</p>
+
+        <h1>Plant a Seed. Grow a Community.</h1>
+
+        <p>
+          Your membership and donations help Maple Seeds create welcoming,
+          enriching opportunities for local homeschool families to learn,
+          connect, and thrive together.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#support">Ways to Support</a>
+
+          <a
+            class="button button-dark"
+            href="https://www.zeffy.com/en-US/donation-form/help-maple-seeds-grow"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Donate Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="support">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Choose how to help</p>
+          <h2>Support Maple Seeds</h2>
+
+          <p>
+            Become a member, make a financial contribution, or help us fill
+            our community library with books. Every form of support directly
+            strengthens programs, materials, events, and shared resources for
+            homeschool families.
+          </p>
+        </div>
+
+        <div class="support-grid">
+          <article class="support-card">
+            <div class="icon" aria-hidden="true">🌱</div>
+
+            <h3>Become a Member</h3>
+
+            <p>
+              Membership helps sustain the collective while connecting your
+              family to our growing homeschool community.
+            </p>
+
+            <ul>
+              <li>Support a welcoming local homeschool network</li>
+              <li>Help fund shared programs, supplies, and activities</li>
+              <li>Be part of a community built by and for families</li>
+            </ul>
+
+            <div class="card-actions">
+              <a
+                class="button button-dark"
+                href="https://www.zeffy.com/en-US/ticketing/maple-seeds-homeschool-collective-membership"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Join Maple Seeds
+              </a>
+            </div>
+          </article>
+
+          <article class="support-card">
+            <div class="icon" aria-hidden="true">🍁</div>
+
+            <h3>Make a Donation</h3>
+
+            <p>
+              Every gift helps us build a stronger, more accessible community
+              for homeschool families.
+            </p>
+
+            <ul>
+              <li>Purchase educational and creative materials</li>
+              <li>Support events, classes, and family programming</li>
+              <li>Help us furnish and maintain our shared space</li>
+            </ul>
+
+            <div class="card-actions">
+              <a
+                class="button button-dark"
+                href="https://www.zeffy.com/en-US/donation-form/help-maple-seeds-grow"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Donate Through Zeffy
+              </a>
+            </div>
+          </article>
+
+          <article class="support-card">
+            <div class="icon" aria-hidden="true">📚</div>
+
+            <h3>Fill Our Community Library</h3>
+
+            <p>
+              Help us build a shared library filled with engaging books that
+              encourage curiosity, imagination, and a lifelong love of reading.
+            </p>
+
+            <ul>
+              <li>Provide books for different ages and reading levels</li>
+              <li>Expand shared learning resources for local families</li>
+              <li>Create a welcoming library for our homeschool community</li>
+            </ul>
+
+            <div class="card-actions">
+              <a
+                class="button button-dark"
+                href="https://shop.scholastic.com/viewCampaign?campaignId=8ff9a23e-49a5-40c6-8526-0cbf0146e9c3"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Support Our Scholastic Campaign
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container impact">
+        <div>
+          <p class="eyebrow">Your support matters</p>
+
+          <h2>What Your Contribution Helps Us Build</h2>
+
+          <p>
+            Maple Seeds is creating more than a place to meet. We are building
+            a dependable community where children can learn together and
+            families can form meaningful connections.
+          </p>
+        </div>
+
+        <div class="impact-list">
+          <div class="impact-item">
+            <strong>Educational Programs</strong>
+            Hands-on classes, workshops, clubs, and enrichment opportunities
+            for children of different ages.
+          </div>
+
+          <div class="impact-item">
+            <strong>Community Events</strong>
+            Family gatherings, field trips, seasonal celebrations, and
+            opportunities for parents and children to connect.
+          </div>
+
+          <div class="impact-item">
+            <strong>A Shared Home Base</strong>
+            Supplies, furnishings, rent, and improvements that help make our
+            collective space warm, useful, and welcoming.
+          </div>
+
+          <div class="impact-item">
+            <strong>A Community Library</strong>
+            Books and shared educational resources that families can explore,
+            enjoy, and learn from together.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta">
+          <h2>Thank You for Helping Maple Seeds Grow</h2>
+
+          <p>
+            Whether you join as a member, give once, contribute to our library,
+            or share our mission with another family, you are helping create
+            something meaningful for our homeschool community.
+          </p>
+
+          <a
+            class="button button-primary"
+            href="https://www.zeffy.com/en-US/donation-form/help-maple-seeds-grow"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Support Maple Seeds
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Maple Seeds Homeschool Collective. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+```
