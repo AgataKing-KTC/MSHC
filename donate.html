@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,16 +9,50 @@
 
   <meta
     name="description"
-    content="Join Maple Seeds Homeschool Collective, support our mission through Zeffy, or help fill our community library through Scholastic."
+    content="Support Maple Seeds Homeschool Collective! Become a member, make a donation, shop our merchandise, or help grow our community library."
   />
 
   <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    /* Responsive layout for four support cards */
+    .support-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .support-card {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .support-card .card-actions {
+      margin-top: auto;
+      padding-top: 20px;
+    }
+
+    @media (max-width: 1100px) {
+      .support-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 600px) {
+      .support-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <header class="site-header">
     <div class="nav-wrap">
-      <a class="brand" href="index.html">Maple Seeds<br />Homeschool Collective</a>
+      <a class="brand" href="index.html">
+        Maple Seeds<br />Homeschool Collective
+      </a>
 
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="index.html">Home</a>
@@ -30,6 +65,7 @@
   </header>
 
   <main>
+    <!-- HERO SECTION -->
     <section class="support-hero">
       <div class="hero-inner">
         <p class="eyebrow">Help our community grow</p>
@@ -37,13 +73,15 @@
         <h1>Plant a Seed. Grow a Community.</h1>
 
         <p>
-          Your membership and donations help Maple Seeds create welcoming,
-          enriching opportunities for local homeschool families to learn,
-          connect, and thrive together.
+          Your membership, donations, and purchases help Maple Seeds
+          create welcoming, enriching opportunities for local
+          homeschool families to learn, connect, and thrive together.
         </p>
 
         <div class="hero-actions">
-          <a class="button button-primary" href="#support">Ways to Support</a>
+          <a class="button button-primary" href="#support">
+            Ways to Support
+          </a>
 
           <a
             class="button button-dark"
@@ -57,6 +95,7 @@
       </div>
     </section>
 
+    <!-- WAYS TO SUPPORT -->
     <section class="section" id="support">
       <div class="container">
         <div class="section-heading">
@@ -64,22 +103,25 @@
           <h2>Support Maple Seeds</h2>
 
           <p>
-            Become a member, make a financial contribution, or help us fill
-            our community library with books. Every form of support directly
-            strengthens programs, materials, events, and shared resources for
-            homeschool families.
+            Become a member, make a donation, shop our exclusive
+            Maple Seeds merchandise, or help fill our community
+            library with books. Every form of support helps our
+            homeschool community grow!
           </p>
         </div>
 
         <div class="support-grid">
+
+          <!-- MEMBERSHIP CARD -->
           <article class="support-card">
             <div class="icon" aria-hidden="true">🌱</div>
 
             <h3>Become a Member</h3>
 
             <p>
-              Membership helps sustain the collective while connecting your
-              family to our growing homeschool community.
+              Membership helps sustain the collective while
+              connecting your family to our growing homeschool
+              community.
             </p>
 
             <ul>
@@ -100,14 +142,15 @@
             </div>
           </article>
 
+          <!-- DONATION CARD -->
           <article class="support-card">
             <div class="icon" aria-hidden="true">🍁</div>
 
             <h3>Make a Donation</h3>
 
             <p>
-              Every gift helps us build a stronger, more accessible community
-              for homeschool families.
+              Every gift helps us build a stronger, more accessible
+              community for homeschool families.
             </p>
 
             <ul>
@@ -128,14 +171,16 @@
             </div>
           </article>
 
+          <!-- LIBRARY CARD -->
           <article class="support-card">
             <div class="icon" aria-hidden="true">📚</div>
 
             <h3>Fill Our Community Library</h3>
 
             <p>
-              Help us build a shared library filled with engaging books that
-              encourage curiosity, imagination, and a lifelong love of reading.
+              Help us build a shared library filled with engaging
+              books that encourage curiosity, imagination, and
+              a lifelong love of reading.
             </p>
 
             <ul>
@@ -155,10 +200,42 @@
               </a>
             </div>
           </article>
+
+          <!-- MERCHANDISE CARD -->
+          <article class="support-card">
+            <div class="icon" aria-hidden="true">👕</div>
+
+            <h3>Shop Our Merch</h3>
+
+            <p>
+              Show your Maple Seeds pride while supporting our
+              mission! Shop our collection of apparel and
+              accessories designed for our homeschool community.
+            </p>
+
+            <ul>
+              <li>Represent Maple Seeds wherever you go</li>
+              <li>Find fun apparel and accessories for the whole family</li>
+              <li>Every purchase helps support our nonprofit's mission</li>
+            </ul>
+
+            <div class="card-actions">
+              <a
+                class="button button-dark"
+                href="https://auslanderklub.com/collections/mshc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Shop Maple Seeds Merch
+              </a>
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
 
+    <!-- IMPACT SECTION -->
     <section class="section section-soft">
       <div class="container impact">
         <div>
@@ -167,49 +244,53 @@
           <h2>What Your Contribution Helps Us Build</h2>
 
           <p>
-            Maple Seeds is creating more than a place to meet. We are building
-            a dependable community where children can learn together and
-            families can form meaningful connections.
+            Maple Seeds is creating more than a place to meet.
+            We are building a dependable community where children
+            can learn together and families can form meaningful
+            connections.
           </p>
         </div>
 
         <div class="impact-list">
           <div class="impact-item">
             <strong>Educational Programs</strong>
-            Hands-on classes, workshops, clubs, and enrichment opportunities
-            for children of different ages.
+            Hands-on classes, workshops, clubs, and enrichment
+            opportunities for children of different ages.
           </div>
 
           <div class="impact-item">
             <strong>Community Events</strong>
-            Family gatherings, field trips, seasonal celebrations, and
-            opportunities for parents and children to connect.
+            Family gatherings, field trips, seasonal celebrations,
+            and opportunities for parents and children to connect.
           </div>
 
           <div class="impact-item">
             <strong>A Shared Home Base</strong>
-            Supplies, furnishings, rent, and improvements that help make our
-            collective space warm, useful, and welcoming.
+            Supplies, furnishings, rent, and improvements that
+            help make our collective space warm, useful,
+            and welcoming.
           </div>
 
           <div class="impact-item">
             <strong>A Community Library</strong>
-            Books and shared educational resources that families can explore,
-            enjoy, and learn from together.
+            Books and shared educational resources that families
+            can explore, enjoy, and learn from together.
           </div>
         </div>
       </div>
     </section>
 
+    <!-- THANK YOU SECTION -->
     <section class="section">
       <div class="container">
         <div class="cta">
           <h2>Thank You for Helping Maple Seeds Grow</h2>
 
           <p>
-            Whether you join as a member, give once, contribute to our library,
-            or share our mission with another family, you are helping create
-            something meaningful for our homeschool community.
+            Whether you become a member, make a donation,
+            shop our merch, contribute to our library,
+            or simply spread the word, you're helping us
+            plant the seeds for a thriving homeschool community.
           </p>
 
           <a
@@ -226,8 +307,10 @@
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2026 Maple Seeds Homeschool Collective. All rights reserved.</p>
+    <p>
+      &copy; 2026 Maple Seeds Homeschool Collective.
+      All rights reserved.
+    </p>
   </footer>
 </body>
 </html>
-
